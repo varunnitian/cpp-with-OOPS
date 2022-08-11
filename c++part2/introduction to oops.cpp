@@ -1,23 +1,54 @@
-#include<iostream>
-using namespace std;
-class rectangle
-{
-public:
-    int length;
-    int breadth;
-    int area()
-    {
-        return length*breadth;
-    }
-    int perimeter(){
-        return (2*(length+breadth));
-    }
-};
-int main(){
-    rectangle r1;
-    r1.length=10;
-    r1.breadth=5;
-    cout<<r1.area()<<endl;
-    cout<<r1.perimeter()<<endl;
-    return 0;
-}
+// #include<iostream>
+// using namespace std;
+// class hero{
+//     private:
+//     int health;
+//     public:
+//     char level;
+//     int gethealth() {
+//         return health;
+//     }
+//     char getlevel() {
+//         return level;
+//     }
+//     void sethealth(int h) {
+//         health=h;
+//     }
+//     void setlevel(char ch) {
+//         level=ch;
+//     }
+// };
+// int main(){
+// hero ram;
+// ram.sethealth(70);
+// cout<<"Ram health is :"<<ram.gethealth()<<endl;
+// return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// class hero{
+//     private:
+//     int health;
+//     public:
+//     char level;
+//     hero(){
+//         cout<<"constructor called"<<endl;
+//     }
+//     int gethealth() {
+//         return health;
+//     }
+//     char getlevel() {
+//         return level;
+//     }
+//     void sethealth(int h) {
+//         health=h;
+//     }
+//     void setlevel(char ch) {
+//         level=ch;
+//     }
+// };
+// int main(){
+// hero ram;
+
+// return 0;
+// }
